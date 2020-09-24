@@ -1,0 +1,31 @@
+#welcome-image{
+    min-width: 200px;
+    max-width: 210px;
+    opacity: 0.8;
+    margin-top: 20px;}
+
+.slide-wrapper{
+    padding: 0px 20px 0px 0px;}
+
+#main-header{
+    width: 50%;
+    margin: 5px 0px 10px 0px;}
+
+.panel-header, #sidebar-header{
+    width: 200px;}
+
+.about-paragraph{
+    width: 70%;}
+
+.about-paragraph-wrapper{
+    text-align: center;
+}
+
+
+
+@media (max-width: 600px){
+    #main-header{
+        width: 90%;}
+    .about-paragraph{
+        width: 100%;}
+}
